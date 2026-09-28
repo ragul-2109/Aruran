@@ -1,0 +1,2325 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Aruran Agro Solution | Premium Silage, Chaff Cutters & Dairy Equipment - Attur, Salem</title>
+
+  <meta
+    name="description"
+    content="Aruran Agro Solution in Attur, Salem - Leading supplier of high-protein fermented silage, heavy-duty chaff cutters, automatic milking machines, cattle feed, and modern dairy farming solutions across Tamil Nadu."
+  />
+  <meta name="keywords" content="Silage Salem, Chaff Cutter Attur, Milking Machine Tamil Nadu, Aruran Agro Solution, Cattle Feed Salem, Dairy Equipment Thulukkanur" />
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Aruran Agro Solution | Agri & Dairy Solutions" />
+  <meta property="og:description" content="Better Silage. Better Nutrition. Better Productivity. Complete farm & dairy mechanization in Attur, Salem." />
+  <meta property="og:type" content="website" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts: Manrope & DM Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Manrope:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/logos/file_00000000665482079792b6dcfb745185.png" />
+
+  <!-- Tailwind Configuration -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            agro: {
+              50: "#f0fbf4",
+              100: "#dbf7e6",
+              200: "#b9edd0",
+              300: "#86ddaf",
+              400: "#4ec489",
+              500: "#2bb36e",
+              600: "#1e8f55",
+              700: "#1b7145",
+              800: "#195a3a",
+              900: "#0b3d28",
+              950: "#052317"
+            },
+            gold: {
+              300: "#fae39b",
+              400: "#f4cf65",
+              500: "#d6a94d",
+              600: "#b88628",
+              700: "#8e6319"
+            }
+          },
+          fontFamily: {
+            sans: ['"DM Sans"', 'system-ui', '-apple-system', 'sans-serif'],
+            heading: ['"Manrope"', '"Plus Jakarta Sans"', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Custom CSS & Bootstrap-inspired utility enhancements -->
+  <style>
+    :root {
+      --agro-950: #052317;
+      --agro-900: #0b3d28;
+      --agro-800: #195a3a;
+      --agro-700: #1b7145;
+      --agro-600: #1e8f55;
+      --agro-500: #2bb36e;
+      --gold-500: #d6a94d;
+      --gold-400: #f4cf65;
+    }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background-color: #fafbf8;
+      color: #1a2e24;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    h1, h2, h3, h4, .brand-font, .font-heading {
+      font-family: 'Manrope', sans-serif;
+    }
+
+    /* Ambient Hero Background with Guaranteed High Contrast */
+    .hero-section {
+      background-color: #052317 !important;
+      background:
+        radial-gradient(circle at 80% 20%, rgba(46, 196, 126, 0.28) 0%, transparent 45%),
+        radial-gradient(circle at 15% 75%, rgba(214, 169, 77, 0.20) 0%, transparent 40%),
+        linear-gradient(135deg, #041f14 0%, #073522 45%, #0b452c 80%, #115738 100%) !important;
+      position: relative;
+    }
+
+    .hero-grid-overlay {
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+      background-size: 40px 40px;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    /* Glassmorphism Classes */
+    .glass-light {
+      background: rgba(255, 255, 255, 0.88);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.65);
+    }
+
+    .glass-dark {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+    }
+
+    .glass-card {
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(230, 237, 232, 0.85);
+    }
+
+    /* Patterns */
+    .grid-pattern {
+      background-image:
+        linear-gradient(rgba(22, 130, 75, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(22, 130, 75, 0.05) 1px, transparent 1px);
+      background-size: 32px 32px;
+    }
+
+    .hero-grid {
+      background-image:
+        linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+      background-size: 40px 40px;
+    }
+
+    /* Floating micro animation */
+    .floating-anim {
+      animation: gentleFloat 5s ease-in-out infinite;
+    }
+    .floating-anim-alt {
+      animation: gentleFloat 6s ease-in-out infinite reverse;
+    }
+
+    @keyframes gentleFloat {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-9px); }
+    }
+
+    /* Pulse dot */
+    .live-pulse {
+      animation: livePulseAnim 2s infinite;
+    }
+
+    @keyframes livePulseAnim {
+      0% { box-shadow: 0 0 0 0 rgba(78, 196, 137, 0.7); }
+      70% { box-shadow: 0 0 0 10px rgba(78, 196, 137, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(78, 196, 137, 0); }
+    }
+
+    /* Marquee ticker */
+    .marquee-track {
+      display: flex;
+      width: max-content;
+      animation: marqueeScroll 32s linear infinite;
+    }
+    .marquee-track:hover {
+      animation-play-state: paused;
+    }
+
+    @keyframes marqueeScroll {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+
+    /* Card hover elevations */
+    .lift-card {
+      transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .lift-card:hover {
+      transform: translateY(-7px);
+      box-shadow: 0 22px 45px -10px rgba(11, 61, 40, 0.16);
+    }
+
+    /* Main Navbar initial & scrolled styling - Clean White Theme */
+    #mainNavbar {
+      background: rgba(255, 255, 255, 0.96);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      border-bottom: 1px solid rgba(5, 35, 23, 0.08);
+      box-shadow: 0 4px 20px rgba(5, 35, 23, 0.05);
+    }
+
+    .nav-scrolled {
+      background: rgba(255, 255, 255, 0.98) !important;
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      box-shadow: 0 10px 30px rgba(5, 35, 23, 0.09) !important;
+      border-bottom: 1px solid rgba(22, 130, 75, 0.15) !important;
+    }
+    #mainNavbar .brand-title { color: #062d1d !important; }
+    #mainNavbar .brand-sub { color: #16824b !important; }
+    #mainNavbar .nav-item { color: #153225 !important; }
+    #mainNavbar .nav-item:hover { color: #16824b !important; }
+    #mainNavbar .nav-call-btn {
+      color: #062d1d !important;
+      border-color: rgba(6, 45, 29, 0.3) !important;
+      background: rgba(6, 45, 29, 0.03);
+    }
+    #mainNavbar .nav-call-btn:hover {
+      background: rgba(6, 45, 29, 0.08) !important;
+    }
+    #mainNavbar .mobile-btn { color: #062d1d !important; }
+
+    /* Scroll reveal transitions */
+    .reveal-on-scroll {
+      opacity: 0;
+      transform: translateY(28px);
+      transition: opacity 0.75s ease-out, transform 0.75s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .reveal-on-scroll.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Product modal */
+    .custom-modal {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.25s ease-out;
+    }
+    .custom-modal.is-open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    .custom-modal-dialog {
+      transform: translateY(20px) scale(0.96);
+      transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .custom-modal.is-open .custom-modal-dialog {
+      transform: translateY(0) scale(1);
+    }
+
+    /* Custom scrollbar */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #f1f4ed;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #2bb36e;
+      border-radius: 5px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #1e8f55;
+    }
+
+    /* Subtle image zoom */
+    .img-zoom-container img {
+      transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .img-zoom-container:hover img {
+      transform: scale(1.06);
+    }
+
+    /* Form control focus states */
+    .form-input-focus:focus {
+      border-color: #1e8f55;
+      box-shadow: 0 0 0 4px rgba(46, 196, 126, 0.18);
+    }
+  </style>
+</head>
+
+<body class="text-agro-950">
+
+  <!-- ============================================================
+       MAIN NAVIGATION (Glass Sticky)
+  ============================================================ -->
+  <header
+    id="mainNavbar"
+    class="fixed top-0 left-0 right-0 z-50 transition-all duration-300"
+  >
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="h-20 flex items-center justify-between">
+
+        <!-- BRAND LOGO & TITLE -->
+        <a href="#home" class="flex items-center gap-3.5 group">
+          <!-- EMBEDDED LOGO -->
+          <div class="relative w-12 h-12 rounded-full overflow-hidden shadow-sm flex items-center justify-center bg-white p-0.5 ring-2 ring-emerald-500/30 group-hover:scale-105 transition shrink-0">
+            <img
+              src="assets/logos/file_00000000665482079792b6dcfb745185.png"
+              alt="Aruran Agro Solution Logo"
+              class="w-full h-full object-contain rounded-full"
+            />
+          </div>
+
+          <div>
+            <div class="brand-title text-agro-950 font-extrabold text-[19px] tracking-tight leading-none group-hover:text-emerald-700 transition-colors">
+              ARURAN
+            </div>
+            <div class="brand-sub text-[10px] font-bold tracking-[0.26em] text-emerald-700 mt-1 uppercase">
+              AGRO SOLUTION
+            </div>
+          </div>
+        </a>
+
+        <!-- DESKTOP NAVIGATION LINKS -->
+        <nav class="hidden lg:flex items-center gap-7">
+          <a href="#home" class="nav-item text-agro-950 hover:text-emerald-600 font-semibold text-sm transition py-1 relative">Home</a>
+          <a href="#about" class="nav-item text-agro-950 hover:text-emerald-600 font-semibold text-sm transition py-1">About</a>
+          <a href="#products" class="nav-item text-agro-950 hover:text-emerald-600 font-semibold text-sm transition py-1">Products</a>
+          <a href="#calculator" class="nav-item text-agro-950 hover:text-emerald-600 font-semibold text-sm transition py-1">Silage Calculator</a>
+          <a href="#services" class="nav-item text-agro-950 hover:text-emerald-600 font-semibold text-sm transition py-1">Services</a>
+          <a href="#gallery" class="nav-item text-agro-950 hover:text-emerald-600 font-semibold text-sm transition py-1">Gallery</a>
+          <a href="#faq" class="nav-item text-agro-950 hover:text-emerald-600 font-semibold text-sm transition py-1">FAQ</a>
+          <a href="#contact" class="nav-item text-agro-950 hover:text-emerald-600 font-semibold text-sm transition py-1">Contact</a>
+        </nav>
+
+        <!-- DESKTOP ACTION BUTTONS -->
+        <div class="hidden lg:flex items-center gap-3">
+          <a
+            href="tel:+917904893635"
+            class="nav-call-btn px-4 py-2.5 rounded-full border border-agro-950/25 text-agro-950 hover:bg-agro-900/5 text-sm font-bold transition flex items-center gap-2"
+          >
+            <i data-lucide="phone-call" class="w-4 h-4 text-emerald-600"></i>
+            <span>+91 79048 93635</span>
+          </a>
+
+          <a
+            href="https://wa.me/917904893635?text=Hello%20Aruran%20Agro%20Solution%2C%20I%20would%20like%20to%20know%20more%20about%20your%20products."
+            target="_blank"
+            class="px-5 py-2.5 rounded-full bg-[#25D366] hover:bg-[#20ba59] text-white text-sm font-extrabold transition shadow-md flex items-center gap-2 hover:scale-105 active:scale-95"
+          >
+            <i data-lucide="message-circle" class="w-4 h-4"></i>
+            <span>WhatsApp</span>
+          </a>
+        </div>
+
+        <!-- MOBILE HAMBURGER BUTTON -->
+        <button
+          id="mobileNavToggle"
+          class="mobile-btn lg:hidden text-agro-950 p-2 rounded-lg hover:bg-agro-900/5 transition"
+          aria-label="Toggle navigation menu"
+        >
+          <i data-lucide="menu" class="w-7 h-7"></i>
+        </button>
+      </div>
+
+      <!-- MOBILE COLLAPSIBLE MENU -->
+      <div id="mobileMenuContainer" class="hidden lg:hidden bg-white/98 backdrop-blur-xl border border-agro-900/10 rounded-2xl mt-2 mb-4 p-5 shadow-2xl">
+        <div class="flex flex-col space-y-3">
+          <a href="#home" class="mobile-nav-link text-agro-950 font-semibold px-3 py-2 rounded-lg hover:bg-agro-50">Home</a>
+          <a href="#about" class="mobile-nav-link text-agro-950 font-semibold px-3 py-2 rounded-lg hover:bg-agro-50">About Us</a>
+          <a href="#products" class="mobile-nav-link text-agro-950 font-semibold px-3 py-2 rounded-lg hover:bg-agro-50">Products & Equipment</a>
+          <a href="#calculator" class="mobile-nav-link text-agro-950 font-bold px-3 py-2 rounded-lg hover:bg-agro-50">Silage Calculator</a>
+          <a href="#services" class="mobile-nav-link text-agro-950 font-semibold px-3 py-2 rounded-lg hover:bg-agro-50">Services & Delivery</a>
+          <a href="#gallery" class="mobile-nav-link text-agro-950 font-semibold px-3 py-2 rounded-lg hover:bg-agro-50">Farm Gallery</a>
+          <a href="#faq" class="mobile-nav-link text-agro-950 font-semibold px-3 py-2 rounded-lg hover:bg-agro-50">FAQ</a>
+          <a href="#contact" class="mobile-nav-link text-agro-950 font-semibold px-3 py-2 rounded-lg hover:bg-agro-50">Contact & Location</a>
+        </div>
+
+        <div class="grid grid-cols-2 gap-3 mt-5 pt-4 border-t border-agro-900/10">
+          <a
+            href="tel:+917904893635"
+            class="flex items-center justify-center gap-2 py-3 rounded-xl border border-agro-900/20 text-agro-950 font-bold text-sm bg-agro-50/50 hover:bg-agro-50"
+          >
+            <i data-lucide="phone" class="w-4 h-4 text-emerald-600"></i> Call Us
+          </a>
+          <a
+            href="https://wa.me/917904893635?text=Hello%20Aruran%20Agro%20Solution%2C%20I%20would%20like%20to%20enquire%20about%20your%20products."
+            target="_blank"
+            class="flex items-center justify-center gap-2 py-3 rounded-xl bg-[#25D366] text-white font-bold text-sm shadow-md"
+          >
+            <i data-lucide="message-circle" class="w-4 h-4"></i> WhatsApp
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ============================================================
+       HERO SECTION
+  ============================================================ -->
+  <section id="home" class="hero-section relative min-h-screen flex items-center pt-28 pb-16 overflow-hidden" style="background-color: #052317;">
+    <!-- Background Video -->
+    <video
+      autoplay
+      loop
+      muted
+      playsinline
+      class="absolute inset-0 w-full h-full object-cover z-0 pointer-events-none opacity-45 scale-105"
+    >
+      <source src="assets/images/gemini_generated_video_c147ae04.mp4" type="video/mp4" />
+    </video>
+
+    <!-- Dark gradient overlay for text readability -->
+    <div class="absolute inset-0 bg-gradient-to-r from-[#052317]/95 via-[#052317]/85 to-[#052317]/75 z-0 pointer-events-none"></div>
+
+    <!-- Grid overlay as dedicated absolute child -->
+    <div class="hero-grid-overlay z-0"></div>
+
+    <!-- Ambient glowing orbs -->
+    <div class="absolute -right-32 top-24 w-[480px] h-[480px] rounded-full bg-emerald-500/15 blur-3xl pointer-events-none z-0"></div>
+    <div class="absolute left-[-10%] bottom-[-5%] w-[420px] h-[420px] rounded-full bg-amber-400/10 blur-3xl pointer-events-none z-0"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-10">
+      <div class="grid lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+
+        <!-- HERO CONTENT (7 COLS) -->
+        <div class="lg:col-span-7 text-left">
+          
+          <!-- Badge -->
+          <div class="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-white/10 backdrop-blur-md text-emerald-200 text-xs sm:text-sm font-bold mb-6 border border-emerald-400/30 shadow-inner">
+            <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 live-pulse"></span>
+            <span>AGRICULTURE • DAIRY • LIVESTOCK MECHANIZATION</span>
+          </div>
+
+          <!-- Main Headline -->
+          <h1 class="text-4xl sm:text-5xl lg:text-[56px] font-extrabold text-white leading-[1.12] tracking-tight font-heading">
+            Better Farming.<br />
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-green-300 to-amber-300">
+              Better Dairy.
+            </span><br />
+            Better Future.
+          </h1>
+
+          <p class="mt-6 text-base sm:text-lg text-emerald-100/90 leading-relaxed max-w-xl font-normal">
+            Empowering Tamil Nadu dairy farmers with high-protein fermented silage, heavy-duty chaff cutters, and automated milking equipment. Save feed costs, increase milk yield, and cut manual labor.
+          </p>
+
+          <!-- Action Buttons -->
+          <div class="mt-8 flex flex-wrap gap-4 items-center">
+            <a
+              href="#products"
+              class="inline-flex items-center gap-2.5 px-7 py-4 rounded-full bg-white hover:bg-emerald-50 text-agro-950 font-extrabold text-base transition shadow-2xl hover:scale-105 active:scale-95 group"
+            >
+              <span>Explore Products</span>
+              <i data-lucide="arrow-right" class="w-5 h-5 text-emerald-700 group-hover:translate-x-1 transition-transform"></i>
+            </a>
+
+            <a
+              href="https://wa.me/917904893635?text=Hello%20Aruran%20Agro%20Solution%2C%20I%20want%20to%20know%20more%20about%20silage%20and%20chaff%20cutter%20prices."
+              target="_blank"
+              class="inline-flex items-center gap-2.5 px-6 py-4 rounded-full bg-[#25D366] hover:bg-[#20ba59] text-white font-extrabold text-base transition shadow-2xl hover:scale-105 active:scale-95"
+            >
+              <i data-lucide="message-circle" class="w-5 h-5"></i>
+              <span>WhatsApp Price</span>
+            </a>
+
+            <a
+              href="#calculator"
+              class="inline-flex items-center gap-2 px-5 py-4 rounded-full bg-white/10 hover:bg-white/20 text-emerald-200 hover:text-white font-bold text-sm transition border border-white/20 backdrop-blur-md"
+            >
+              <i data-lucide="calculator" class="w-4 h-4 text-amber-300"></i>
+              <span>Silage Calculator</span>
+            </a>
+          </div>
+
+          <!-- Trust Badges -->
+          <div class="mt-12 pt-8 border-t border-white/15 grid grid-cols-3 gap-6 max-w-lg">
+            <div>
+              <div class="text-3xl font-extrabold text-white flex items-center gap-1 font-heading">
+                <span>100%</span>
+              </div>
+              <div class="text-xs text-emerald-200/80 mt-1 font-medium">Quality Fermented Silage</div>
+            </div>
+
+            <div>
+              <div class="text-3xl font-extrabold text-amber-300 font-heading">
+                500+
+              </div>
+              <div class="text-xs text-emerald-200/80 mt-1 font-medium">Satisfied Dairy Farmers</div>
+            </div>
+
+            <div>
+              <div class="text-3xl font-extrabold text-white font-heading">
+                Attur
+              </div>
+              <div class="text-xs text-emerald-200/80 mt-1 font-medium">Salem Regional Support</div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- HERO VISUAL WITH FLOATING BADGES (5 COLS) -->
+        <div class="lg:col-span-5 relative flex justify-center">
+          
+          <div class="relative w-full max-w-[460px]">
+            <!-- Main Hero Featured Card -->
+            <div class="rounded-3xl overflow-hidden shadow-2xl border-2 border-white/20 relative group">
+              <img
+                src="assets/images/cattle-feed.jpg"
+                alt="Green cattle feed and agriculture field"
+                class="w-full h-[470px] object-cover group-hover:scale-105 transition-transform duration-700"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-agro-950/90 via-agro-950/30 to-transparent"></div>
+
+              <div class="absolute bottom-6 left-6 right-6">
+                <span class="inline-block px-3 py-1 rounded-full bg-emerald-500 text-agro-950 text-xs font-black tracking-wider uppercase mb-2">
+                  DIRECT FROM ATTUR
+                </span>
+                <h3 class="text-white text-xl sm:text-2xl font-extrabold leading-tight">
+                  High-Protein Silage &amp; Modern Dairy Mechanization
+                </h3>
+                <p class="text-emerald-100/80 text-xs sm:text-sm mt-1">
+                  Salem • Namakkal • Kallakurichi • Delivery Across Tamil Nadu
+                </p>
+              </div>
+            </div>
+
+            <!-- Floating Badge 1: Nutritious Silage -->
+            <div class="floating-anim absolute -left-6 top-10 bg-white/95 backdrop-blur-md rounded-2xl p-4 shadow-2xl max-w-[220px] hidden sm:block border border-gray-100 ring-1 ring-black/5">
+              <div class="flex items-center gap-3">
+                <div class="w-11 h-11 rounded-xl bg-emerald-100 flex items-center justify-center shrink-0">
+                  <i data-lucide="sprout" class="text-agro-700 w-6 h-6"></i>
+                </div>
+                <div>
+                  <div class="text-[10px] font-extrabold text-emerald-700 uppercase tracking-wider">CATTLE FEED</div>
+                  <div class="font-extrabold text-agro-950 text-sm">365-Day Silage</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Floating Badge 2: Modern Milking -->
+            <div class="floating-anim-alt absolute -right-6 bottom-14 bg-white/95 backdrop-blur-md rounded-2xl p-4 shadow-2xl max-w-[220px] hidden sm:block border border-gray-100 ring-1 ring-black/5">
+              <div class="flex items-center gap-3">
+                <div class="w-11 h-11 rounded-xl bg-amber-100 flex items-center justify-center shrink-0">
+                  <i data-lucide="activity" class="text-amber-700 w-6 h-6"></i>
+                </div>
+                <div>
+                  <div class="text-[10px] font-extrabold text-amber-700 uppercase tracking-wider">MILKING TECH</div>
+                  <div class="font-extrabold text-agro-950 text-sm">Fast &amp; Hygienic</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       BRAND MARQUEE TICKER
+  ============================================================ -->
+  <div class="bg-agro-950 border-y border-white/10 py-3.5 overflow-hidden">
+    <div class="marquee-track flex items-center gap-10 text-emerald-200/80 text-xs sm:text-sm font-extrabold tracking-widest uppercase">
+      <span class="flex items-center gap-2"><i data-lucide="leaf" class="w-4 h-4 text-emerald-400"></i> HIGH PROTEIN SILAGE</span>
+      <span class="text-amber-400">•</span>
+      <span class="flex items-center gap-2"><i data-lucide="cog" class="w-4 h-4 text-emerald-400"></i> 2HP TO 5HP CHAFF CUTTERS</span>
+      <span class="text-amber-400">•</span>
+      <span class="flex items-center gap-2"><i data-lucide="shield-check" class="w-4 h-4 text-emerald-400"></i> AUTOMATIC MILKING MACHINES</span>
+      <span class="text-amber-400">•</span>
+      <span class="flex items-center gap-2"><i data-lucide="truck" class="w-4 h-4 text-emerald-400"></i> ATTUR, SALEM DOORSTEP DISPATCH</span>
+      <span class="text-amber-400">•</span>
+      <span class="flex items-center gap-2"><i data-lucide="heart" class="w-4 h-4 text-emerald-400"></i> HEALTHIER CATTLE & HIGHER MILK YIELD</span>
+      <span class="text-amber-400">•</span>
+      <!-- Duplicate for seamless infinite loop -->
+      <span class="flex items-center gap-2"><i data-lucide="leaf" class="w-4 h-4 text-emerald-400"></i> HIGH PROTEIN SILAGE</span>
+      <span class="text-amber-400">•</span>
+      <span class="flex items-center gap-2"><i data-lucide="cog" class="w-4 h-4 text-emerald-400"></i> 2HP TO 5HP CHAFF CUTTERS</span>
+      <span class="text-amber-400">•</span>
+      <span class="flex items-center gap-2"><i data-lucide="shield-check" class="w-4 h-4 text-emerald-400"></i> AUTOMATIC MILKING MACHINES</span>
+      <span class="text-amber-400">•</span>
+      <span class="flex items-center gap-2"><i data-lucide="truck" class="w-4 h-4 text-emerald-400"></i> ATTUR, SALEM DOORSTEP DISPATCH</span>
+      <span class="text-amber-400">•</span>
+      <span class="flex items-center gap-2"><i data-lucide="heart" class="w-4 h-4 text-emerald-400"></i> HEALTHIER CATTLE & HIGHER MILK YIELD</span>
+      <span class="text-amber-400">•</span>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       ABOUT SECTION
+  ============================================================ -->
+  <section id="about" class="py-24 bg-[#fafbf8] grid-pattern">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid lg:grid-cols-2 gap-14 items-center">
+        
+        <!-- About visual layout -->
+        <div class="reveal-on-scroll relative">
+          <div class="grid grid-cols-2 gap-4">
+            <div class="rounded-3xl overflow-hidden shadow-lg border border-gray-100 h-64 sm:h-80 img-zoom-container">
+              <img
+                src="assets/images/chaff-cutter.jpg"
+                alt="Modern agriculture farm equipment"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div class="rounded-3xl overflow-hidden shadow-lg border border-gray-100 h-64 sm:h-80 mt-8 img-zoom-container">
+              <img
+                src="assets/images/dairy-farm-shed.jpg"
+                alt="Healthy dairy cattle in modern farm shed"
+                class="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+
+          <!-- Bottom floating badge -->
+          <div class="absolute -bottom-6 left-1/2 -translate-x-1/2 w-[90%] glass-light rounded-2xl p-4 shadow-xl border border-white flex items-center gap-4">
+            <div class="w-12 h-12 rounded-xl bg-emerald-600 text-white flex items-center justify-center shrink-0">
+              <i data-lucide="award" class="w-6 h-6"></i>
+            </div>
+            <div>
+              <div class="text-xs text-gray-500 font-bold uppercase tracking-wide">TRUSTED IN ATTUR & SALEM</div>
+              <div class="font-extrabold text-agro-950 text-sm sm:text-base">Genuine Products • Direct Farmer Pricing</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- About text content -->
+        <div class="reveal-on-scroll">
+          <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-100 text-agro-700 text-xs font-extrabold uppercase tracking-wider">
+            About Aruran Agro Solution
+          </span>
+
+          <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-agro-950 mt-4 leading-tight font-heading">
+            Dedicated to <span class="text-emerald-700">Modern Livestock</span> & Dairy Productivity.
+          </h2>
+
+          <p class="text-gray-600 text-base leading-relaxed mt-5">
+            Based in Thulukkanur, Attur (Salem District), <strong>Aruran Agro Solution</strong> is an agriculture and livestock-centric business founded to bridge the gap between traditional dairy farming and modern agricultural mechanization.
+          </p>
+
+          <p class="text-gray-600 text-base leading-relaxed mt-3">
+            Green fodder shortage and labor scarcity are the biggest challenges faced by dairy farmers today. We provide high-quality fermented corn silage that maintains year-round milk output, along with robust grass/chaff cutters and reliable milking machines designed for Indian dairy conditions.
+          </p>
+
+          <!-- 4 Bullet points -->
+          <div class="grid sm:grid-cols-2 gap-4 mt-8">
+            <div class="p-4 rounded-2xl bg-white border border-gray-100 shadow-sm flex items-start gap-3">
+              <div class="w-9 h-9 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center shrink-0 mt-0.5">
+                <i data-lucide="check" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="font-extrabold text-agro-950 text-sm">Fermented Corn Silage</h4>
+                <p class="text-gray-500 text-xs mt-1">High protein & energy feed stored in 50kg weather-proof bags.</p>
+              </div>
+            </div>
+
+            <div class="p-4 rounded-2xl bg-white border border-gray-100 shadow-sm flex items-start gap-3">
+              <div class="w-9 h-9 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center shrink-0 mt-0.5">
+                <i data-lucide="cog" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="font-extrabold text-agro-950 text-sm">Chaff Cutters (2 to 5 HP)</h4>
+                <p class="text-gray-500 text-xs mt-1">Heavy-duty carbon blades for fine green & dry fodder cutting.</p>
+              </div>
+            </div>
+
+            <div class="p-4 rounded-2xl bg-white border border-gray-100 shadow-sm flex items-start gap-3">
+              <div class="w-9 h-9 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center shrink-0 mt-0.5">
+                <i data-lucide="shield-check" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="font-extrabold text-agro-950 text-sm">Milking Machines</h4>
+                <p class="text-gray-500 text-xs mt-1">Single and double bucket trolley units for gentle udder care.</p>
+              </div>
+            </div>
+
+            <div class="p-4 rounded-2xl bg-white border border-gray-100 shadow-sm flex items-start gap-3">
+              <div class="w-9 h-9 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center shrink-0 mt-0.5">
+                <i data-lucide="truck" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="font-extrabold text-agro-950 text-sm">Prompt Dispatch</h4>
+                <p class="text-gray-500 text-xs mt-1">Direct delivery across Attur, Salem, Namakkal, and all Tamil Nadu.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PRODUCTS & SOLUTIONS CATALOG (with dynamic filter)
+  ============================================================ -->
+  <section id="products" class="py-24 bg-white border-t border-gray-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 reveal-on-scroll">
+        <div>
+          <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-100 text-agro-700 text-xs font-extrabold uppercase tracking-wider">
+            Our Products & Solutions
+          </span>
+          <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-agro-950 mt-3 font-heading">
+            Tested & Proven for Real Farms.
+          </h2>
+        </div>
+        <p class="text-gray-500 max-w-md text-sm sm:text-base leading-relaxed">
+          Select a category to view models, specifications, and request immediate pricing directly on WhatsApp.
+        </p>
+      </div>
+
+      <!-- FILTER TABS -->
+      <div class="mt-10 flex flex-wrap gap-2.5 border-b border-gray-200 pb-4 reveal-on-scroll">
+        <button class="filter-tab-btn active px-5 py-2.5 rounded-full text-xs sm:text-sm font-extrabold bg-agro-900 text-white transition" data-filter="all">
+          All Products
+        </button>
+        <button class="filter-tab-btn px-5 py-2.5 rounded-full text-xs sm:text-sm font-extrabold bg-gray-100 text-gray-700 hover:bg-gray-200 transition" data-filter="silage">
+          Corn Silage & Feed
+        </button>
+        <button class="filter-tab-btn px-5 py-2.5 rounded-full text-xs sm:text-sm font-extrabold bg-gray-100 text-gray-700 hover:bg-gray-200 transition" data-filter="milking">
+          Milking Machines
+        </button>
+        <button class="filter-tab-btn px-5 py-2.5 rounded-full text-xs sm:text-sm font-extrabold bg-gray-100 text-gray-700 hover:bg-gray-200 transition" data-filter="dairy">
+          Dairy Accessories
+        </button>
+      </div>
+
+      <!-- PRODUCT CARDS GRID -->
+      <div id="productGrid" class="grid sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-6 mt-10">
+
+        <!-- 1. Silage -->
+        <article class="product-item lift-card rounded-3xl overflow-hidden bg-[#f8faf6] border border-gray-100 shadow-sm flex flex-col" data-category="silage">
+          <div class="relative h-64 overflow-hidden img-zoom-container">
+            <img
+              src="assets/images/images.jpg"
+              alt="Quality Fermented Corn Silage"
+              class="w-full h-full object-cover"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-agro-950/75 via-transparent to-transparent"></div>
+            <div class="absolute top-4 left-4 flex gap-2">
+              <span class="px-3 py-1 rounded-full bg-emerald-500 text-agro-950 text-xs font-black uppercase tracking-wider">
+                BESTSELLER
+              </span>
+              <span class="px-2.5 py-1 rounded-full bg-white/90 backdrop-blur text-agro-900 text-xs font-bold">
+                50kg Bags
+              </span>
+            </div>
+            <div class="absolute bottom-3 left-4 right-4 text-white text-xs font-semibold">
+              Moisture: 65% • Lactic Acid Fermented
+            </div>
+          </div>
+
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-bold text-emerald-700 uppercase tracking-wider">CATTLE NUTRITION</span>
+                <span class="text-xs font-semibold text-gray-400">Salem Supply</span>
+              </div>
+              <h3 class="text-xl font-extrabold text-agro-950 mt-1.5 font-heading">
+                Quality Fermented Corn Silage
+              </h3>
+              <p class="text-gray-500 text-sm mt-2 leading-relaxed">
+                Sweet-smelling lactic acid fermented green fodder packed in 50kg UV-protected airtight bags. Enhances milk fat and daily yield.
+              </p>
+            </div>
+
+            <div class="mt-6 pt-4 border-t border-gray-200/70 flex items-center justify-between">
+              <button
+                onclick="openProductModal('silage')"
+                class="text-emerald-700 hover:text-emerald-800 font-extrabold text-sm inline-flex items-center gap-1 group"
+              >
+                <span>View Details</span>
+                <i data-lucide="arrow-up-right" class="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"></i>
+              </button>
+
+              <a
+                href="https://wa.me/917904893635?text=Hello%20Aruran%20Agro%20Solution%2C%20I%20am%20interested%20in%20ordering%20Silage.%20Please%20share%20price%20per%20bag%20and%20delivery%20terms."
+                target="_blank"
+                class="px-4 py-2 rounded-xl bg-agro-900 hover:bg-agro-800 text-white font-bold text-xs inline-flex items-center gap-1.5 transition"
+              >
+                <i data-lucide="message-circle" class="w-3.5 h-3.5"></i> WhatsApp Price
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2. Milking Machines -->
+        <article class="product-item lift-card rounded-3xl overflow-hidden bg-[#f8faf6] border border-gray-100 shadow-sm flex flex-col" data-category="milking">
+          <div class="relative h-64 overflow-hidden img-zoom-container">
+            <img
+              src="assets/images/4f109f61-f4cb-4286-8e13-24c59b798e4e (1).png"
+              alt="Automatic Milking Machines"
+              class="w-full h-full object-contain p-2 bg-white"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-agro-950/75 via-transparent to-transparent"></div>
+            <div class="absolute top-4 left-4 flex gap-2">
+              <span class="px-3 py-1 rounded-full bg-emerald-500 text-agro-950 text-xs font-black uppercase tracking-wider">
+                DAIRY TECH
+              </span>
+              <span class="px-2.5 py-1 rounded-full bg-white/90 backdrop-blur text-agro-900 text-xs font-bold">
+                SS 304 Bucket
+              </span>
+            </div>
+            <div class="absolute bottom-3 left-4 right-4 text-white text-xs font-semibold">
+              Food Grade Silicone • Single / Double Can
+            </div>
+          </div>
+
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-bold text-emerald-700 uppercase tracking-wider">DAIRY AUTOMATION</span>
+                <span class="text-xs font-semibold text-gray-400">Gentle Pulse</span>
+              </div>
+              <h3 class="text-xl font-extrabold text-agro-950 mt-1.5 font-heading">
+                Automatic Milking Machines
+              </h3>
+              <p class="text-gray-500 text-sm mt-2 leading-relaxed">
+                Trolley-mounted oil-lubricated vacuum pump milking units. Milks 10 to 12 cows per hour cleanly without causing mastitis.
+              </p>
+            </div>
+
+            <div class="mt-6 pt-4 border-t border-gray-200/70 flex items-center justify-between">
+              <button
+                onclick="openProductModal('milking')"
+                class="text-emerald-700 hover:text-emerald-800 font-extrabold text-sm inline-flex items-center gap-1 group"
+              >
+                <span>View Details</span>
+                <i data-lucide="arrow-up-right" class="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"></i>
+              </button>
+
+              <a
+                href="https://wa.me/917904893635?text=Hello%20Aruran%20Agro%20Solution%2C%20I%20want%20details%20and%20pricing%20for%20Milking%20Machines."
+                target="_blank"
+                class="px-4 py-2 rounded-xl bg-agro-900 hover:bg-agro-800 text-white font-bold text-xs inline-flex items-center gap-1.5 transition"
+              >
+                <i data-lucide="message-circle" class="w-3.5 h-3.5"></i> WhatsApp Price
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 4. Cattle Feed Solutions -->
+        <article class="product-item lift-card rounded-3xl overflow-hidden bg-[#f8faf6] border border-gray-100 shadow-sm flex flex-col" data-category="silage">
+          <div class="relative h-64 overflow-hidden img-zoom-container">
+            <img
+              src="assets/images/cattle-feed.jpg"
+              alt="Cattle Feed and Mineral Mix"
+              class="w-full h-full object-cover"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-agro-950/75 via-transparent to-transparent"></div>
+            <div class="absolute top-4 left-4">
+              <span class="px-3 py-1 rounded-full bg-emerald-100 text-agro-900 text-xs font-black uppercase tracking-wider">
+                NUTRITION
+              </span>
+            </div>
+          </div>
+
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-bold text-emerald-700 uppercase tracking-wider">HEALTH & YIELD</span>
+              </div>
+              <h3 class="text-xl font-extrabold text-agro-950 mt-1.5 font-heading">
+                Cattle Feed & Mineral Mixture
+              </h3>
+              <p class="text-gray-500 text-sm mt-2 leading-relaxed">
+                Balanced bypass protein feeds, calcium tonic, and micro-minerals formulated to boost pregnancy rates, lactation, and immunity.
+              </p>
+            </div>
+
+            <div class="mt-6 pt-4 border-t border-gray-200/70 flex items-center justify-between">
+              <button
+                onclick="openProductModal('feed')"
+                class="text-emerald-700 hover:text-emerald-800 font-extrabold text-sm inline-flex items-center gap-1 group"
+              >
+                <span>View Details</span>
+                <i data-lucide="arrow-up-right" class="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"></i>
+              </button>
+
+              <a
+                href="https://wa.me/917904893635?text=Hello%20Aruran%20Agro%20Solution%2C%20I%20would%20like%20to%20enquire%20about%20Cattle%20Feed%20and%20Mineral%20Mixture."
+                target="_blank"
+                class="px-4 py-2 rounded-xl bg-agro-900 hover:bg-agro-800 text-white font-bold text-xs inline-flex items-center gap-1.5 transition"
+              >
+                <i data-lucide="message-circle" class="w-3.5 h-3.5"></i> WhatsApp Price
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 5. Dairy Accessories & Cow Comfort -->
+        <article class="product-item lift-card rounded-3xl overflow-hidden bg-[#f8faf6] border border-gray-100 shadow-sm flex flex-col" data-category="dairy">
+          <div class="relative h-64 overflow-hidden img-zoom-container">
+            <img
+              src="assets/images/cow.jpg"
+              alt="Dairy Cow Comfort & Accessories"
+              class="w-full h-full object-cover"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-agro-950/75 via-transparent to-transparent"></div>
+            <div class="absolute top-4 left-4">
+              <span class="px-3 py-1 rounded-full bg-emerald-100 text-agro-900 text-xs font-black uppercase tracking-wider">
+                FARM HYGIENE
+              </span>
+            </div>
+          </div>
+
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-bold text-emerald-700 uppercase tracking-wider">COW COMFORT</span>
+              </div>
+              <h3 class="text-xl font-extrabold text-agro-950 mt-1.5 font-heading">
+                Dairy Accessories & Cow Mats
+              </h3>
+              <p class="text-gray-500 text-sm mt-2 leading-relaxed">
+                Anti-skid rubber cow mats to prevent hoof injuries, stainless steel milk cans (20L/40L), automatic brushes, and teat dip cups.
+              </p>
+            </div>
+
+            <div class="mt-6 pt-4 border-t border-gray-200/70 flex items-center justify-between">
+              <button
+                onclick="openProductModal('dairy')"
+                class="text-emerald-700 hover:text-emerald-800 font-extrabold text-sm inline-flex items-center gap-1 group"
+              >
+                <span>View Details</span>
+                <i data-lucide="arrow-up-right" class="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"></i>
+              </button>
+
+              <a
+                href="https://wa.me/917904893635?text=Hello%20Aruran%20Agro%20Solution%2C%20I%20am%20looking%20for%20Dairy%20Accessories%20and%20Rubber%20Cow%20Mats."
+                target="_blank"
+                class="px-4 py-2 rounded-xl bg-agro-900 hover:bg-agro-800 text-white font-bold text-xs inline-flex items-center gap-1.5 transition"
+              >
+                <i data-lucide="message-circle" class="w-3.5 h-3.5"></i> WhatsApp Price
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 6. Custom Farm Setup Card (Dark Highlight) -->
+        <article class="lift-card rounded-3xl overflow-hidden bg-agro-950 text-white border border-agro-800 p-8 flex flex-col justify-between shadow-xl">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-white/10 flex items-center justify-center text-emerald-400">
+              <i data-lucide="headphones" class="w-7 h-7"></i>
+            </div>
+            <span class="text-emerald-300 text-xs font-extrabold uppercase tracking-widest block mt-6">
+              PERSONALIZED GUIDANCE
+            </span>
+            <h3 class="text-2xl font-extrabold mt-2 font-heading">
+              Need a Custom Farm Solution?
+            </h3>
+            <p class="text-emerald-100/70 text-sm mt-3 leading-relaxed">
+              Planning to start a 10 to 50 cow dairy farm or need bulk silage contract supplies? Speak directly with our Attur agri-specialist.
+            </p>
+          </div>
+
+          <div class="mt-8 space-y-3">
+            <a
+              href="https://wa.me/917904893635?text=Hello%20Aruran%20Agro%20Solution%2C%20I%20have%20a%20custom%20dairy%20farm%20requirement%20and%20need%20consultation."
+              target="_blank"
+              class="w-full flex items-center justify-center gap-2 py-3.5 rounded-xl bg-white text-agro-950 font-extrabold text-sm hover:bg-emerald-50 transition"
+            >
+              <span>Chat with Farm Advisor</span>
+              <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+            </a>
+            <a
+              href="tel:+917904893635"
+              class="w-full flex items-center justify-center gap-2 py-3 rounded-xl border border-white/20 text-white font-bold text-xs hover:bg-white/10 transition"
+            >
+              <i data-lucide="phone" class="w-3.5 h-3.5 text-emerald-400"></i> Call +91 79048 93635
+            </a>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       INTERACTIVE SILAGE & FODDER CALCULATOR (Farmer-Friendly)
+  ============================================================ -->
+  <section id="calculator" class="py-20 bg-gradient-to-b from-[#fafbf8] to-[#f0f5ee] border-t border-b border-gray-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto reveal-on-scroll">
+        <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-100 text-agro-700 text-xs font-extrabold uppercase tracking-wider">
+          <i data-lucide="calculator" class="w-3.5 h-3.5"></i> Interactive Tool for Dairy Farmers
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-agro-950 mt-3 font-heading">
+          Calculate Your Dairy Farm's <span class="text-emerald-600">Silage Requirement</span>
+        </h2>
+        <p class="text-gray-600 mt-2 text-sm sm:text-base">
+          Find out exactly how much silage your cattle need per month and get an instant delivery quote.
+        </p>
+      </div>
+
+      <div class="mt-12 max-w-4xl mx-auto bg-white rounded-3xl p-6 sm:p-10 shadow-xl border border-gray-100 reveal-on-scroll">
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+          
+          <!-- INPUTS -->
+          <div class="space-y-6">
+            <!-- Animals count -->
+            <div>
+              <div class="flex justify-between items-center mb-2">
+                <label class="text-sm font-extrabold text-agro-950">Number of Dairy Cows / Buffaloes</label>
+                <span id="cowsCountDisplay" class="px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 font-extrabold text-sm">5 Animals</span>
+              </div>
+              <input
+                id="cowsSlider"
+                type="range"
+                min="1"
+                max="50"
+                value="5"
+                class="w-full h-2.5 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-emerald-600"
+              />
+              <div class="flex justify-between text-[11px] text-gray-400 mt-1 font-semibold">
+                <span>1 Animal</span>
+                <span>25 Animals</span>
+                <span>50+ Animals</span>
+              </div>
+            </div>
+
+            <!-- Feed Per Animal -->
+            <div>
+              <label class="text-sm font-extrabold text-agro-950 block mb-2">Silage Feeding per Animal (Daily)</label>
+              <div class="grid grid-cols-3 gap-2">
+                <button type="button" class="feed-btn active py-2.5 px-3 rounded-xl border border-emerald-500 bg-emerald-50 text-emerald-800 font-bold text-xs" data-feed="10">
+                  10 kg / day<br><span class="text-[10px] font-normal text-gray-500">Economy</span>
+                </button>
+                <button type="button" class="feed-btn py-2.5 px-3 rounded-xl border border-gray-200 hover:border-emerald-300 font-bold text-xs text-gray-700" data-feed="15">
+                  15 kg / day<br><span class="text-[10px] font-normal text-gray-500">Standard</span>
+                </button>
+                <button type="button" class="feed-btn py-2.5 px-3 rounded-xl border border-gray-200 hover:border-emerald-300 font-bold text-xs text-gray-700" data-feed="20">
+                  20 kg / day<br><span class="text-[10px] font-normal text-gray-500">High Yield</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Days Duration -->
+            <div>
+              <label class="text-sm font-extrabold text-agro-950 block mb-2">Supply Duration Needed</label>
+              <select id="calcDuration" class="w-full px-4 py-3 rounded-xl border border-gray-200 bg-gray-50 font-bold text-sm text-gray-800 form-input-focus outline-none">
+                <option value="15">15 Days (Trial Pack)</option>
+                <option value="30" selected>30 Days (1 Month Standard)</option>
+                <option value="60">60 Days (2 Months Supply)</option>
+                <option value="90">90 Days (Quarterly Supply)</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- RESULT SUMMARY CARD -->
+          <div class="bg-gradient-to-br from-agro-900 to-agro-950 text-white rounded-2xl p-6 sm:p-7 relative overflow-hidden shadow-lg">
+            <div class="absolute -right-10 -bottom-10 w-36 h-36 rounded-full bg-emerald-500/20 blur-xl"></div>
+            
+            <div class="text-emerald-300 text-xs font-extrabold uppercase tracking-widest flex items-center gap-1.5">
+              <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-400"></i> Estimated Requirement
+            </div>
+
+            <div class="mt-4 pb-4 border-b border-white/10">
+              <div class="text-xs text-emerald-100/70">Total Silage Quantity</div>
+              <div class="text-3xl sm:text-4xl font-extrabold text-white font-heading mt-1 flex items-baseline gap-2">
+                <span id="totalKgDisplay">1,500</span> <span class="text-lg text-emerald-300">kg</span>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-2 gap-4 my-4">
+              <div>
+                <div class="text-xs text-emerald-100/70">50kg Air-Tight Bags</div>
+                <div id="bagsDisplay" class="text-2xl font-extrabold text-amber-300 mt-0.5">30 Bags</div>
+              </div>
+              <div>
+                <div class="text-xs text-emerald-100/70">Daily Requirement</div>
+                <div id="dailyKgDisplay" class="text-2xl font-extrabold text-white mt-0.5">50 kg / day</div>
+              </div>
+            </div>
+
+            <div class="bg-white/10 rounded-xl p-3 text-xs text-emerald-100/90 leading-relaxed mb-5">
+              💡 <strong>Benefits:</strong> Consistent milk fat (SNF), year-round feed availability, no risk of green fodder shortage during summer.
+            </div>
+
+            <a
+              id="calcWhatsAppBtn"
+              href="#"
+              target="_blank"
+              class="w-full flex items-center justify-center gap-2 py-3.5 px-4 rounded-xl bg-emerald-400 hover:bg-emerald-300 text-agro-950 font-extrabold text-sm transition shadow-md"
+            >
+              <i data-lucide="message-circle" class="w-4 h-4"></i>
+              <span>Order This Silage on WhatsApp</span>
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SERVICES & SUPPORT SECTION
+  ============================================================ -->
+  <section id="services" class="py-24 bg-[#f4f7f0] border-t border-gray-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="max-w-2xl reveal-on-scroll">
+        <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-100 text-agro-700 text-xs font-extrabold uppercase tracking-wider">
+          How We Serve Farmers
+        </span>
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-agro-950 mt-3 font-heading">
+          Comprehensive Support From <span class="text-emerald-700">Supply to Service.</span>
+        </h2>
+        <p class="text-gray-600 mt-3 text-sm sm:text-base leading-relaxed">
+          We don't just sell equipment; we ensure every farmer gets maximum productivity through our direct field support.
+        </p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
+        
+        <!-- Service 1 -->
+        <div class="reveal-on-scroll bg-white rounded-3xl p-7 border border-gray-100 shadow-sm lift-card">
+          <div class="w-14 h-14 rounded-2xl bg-emerald-50 text-emerald-700 flex items-center justify-center">
+            <i data-lucide="package-check" class="w-7 h-7"></i>
+          </div>
+          <h3 class="font-extrabold text-xl text-agro-950 mt-6 font-heading">Direct Product Supply</h3>
+          <p class="text-gray-500 text-sm leading-relaxed mt-2.5">
+            Consistent silage supply and heavy-duty farm equipment with genuine warranty and replacement parts.
+          </p>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="reveal-on-scroll bg-white rounded-3xl p-7 border border-gray-100 shadow-sm lift-card">
+          <div class="w-14 h-14 rounded-2xl bg-emerald-50 text-emerald-700 flex items-center justify-center">
+            <i data-lucide="truck" class="w-7 h-7"></i>
+          </div>
+          <h3 class="font-extrabold text-xl text-agro-950 mt-6 font-heading">Doorstep Farm Delivery</h3>
+          <p class="text-gray-500 text-sm leading-relaxed mt-2.5">
+            Prompt vehicle delivery across Attur, Salem, Namakkal, Dharmapuri, Kallakurichi, and throughout Tamil Nadu.
+          </p>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="reveal-on-scroll bg-white rounded-3xl p-7 border border-gray-100 shadow-sm lift-card">
+          <div class="w-14 h-14 rounded-2xl bg-emerald-50 text-emerald-700 flex items-center justify-center">
+            <i data-lucide="wrench" class="w-7 h-7"></i>
+          </div>
+          <h3 class="font-extrabold text-xl text-agro-950 mt-6 font-heading">Installation & Training</h3>
+          <p class="text-gray-500 text-sm leading-relaxed mt-2.5">
+            Complete demonstration on operating chaff cutters and milking machines, blade sharpening, and hygienic sanitization.
+          </p>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="reveal-on-scroll bg-white rounded-3xl p-7 border border-gray-100 shadow-sm lift-card">
+          <div class="w-14 h-14 rounded-2xl bg-emerald-50 text-emerald-700 flex items-center justify-center">
+            <i data-lucide="phone-call" class="w-7 h-7"></i>
+          </div>
+          <h3 class="font-extrabold text-xl text-agro-950 mt-6 font-heading">Farmer Helpline</h3>
+          <p class="text-gray-500 text-sm leading-relaxed mt-2.5">
+            Immediate assistance via Call or WhatsApp for feeding advice, silage stock replenishment, and machinery service.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       WHY ARURAN (Trust & Advantage)
+  ============================================================ -->
+  <section class="py-24 bg-agro-950 text-white relative overflow-hidden">
+    <div class="absolute inset-0 hero-grid opacity-35 pointer-events-none"></div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      
+      <div class="grid lg:grid-cols-12 gap-12 items-center">
+        
+        <div class="lg:col-span-7 reveal-on-scroll">
+          <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full glass-dark text-emerald-300 text-xs font-bold uppercase tracking-wider">
+            Why Dairy Farmers Choose Us
+          </span>
+
+          <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold mt-4 leading-tight font-heading">
+            A Trusted Partner for <span class="text-emerald-300">Profitable Dairy Farming.</span>
+          </h2>
+
+          <p class="text-emerald-100/75 mt-4 text-base leading-relaxed max-w-xl">
+            We understand the challenges of fluctuating milk procurement prices and rising fodder costs. Every solution at Aruran Agro Solution is built to save you money and protect your animal health.
+          </p>
+
+          <div class="mt-8 space-y-5">
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-emerald-500/20 text-emerald-300 flex items-center justify-center shrink-0 mt-1 border border-emerald-500/30">
+                <i data-lucide="check" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="font-extrabold text-white text-base">Direct From Trusted Source</h4>
+                <p class="text-emerald-100/65 text-sm mt-0.5">No unnecessary middlemen. Fair, transparent pricing with guaranteed weight and freshness.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-emerald-500/20 text-emerald-300 flex items-center justify-center shrink-0 mt-1 border border-emerald-500/30">
+                <i data-lucide="check" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="font-extrabold text-white text-base">Heavy-Duty Motors & Spares</h4>
+                <p class="text-emerald-100/65 text-sm mt-0.5">High-grade copper-wound electric motors with readily available replacement blades and liners.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-emerald-500/20 text-emerald-300 flex items-center justify-center shrink-0 mt-1 border border-emerald-500/30">
+                <i data-lucide="check" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="font-extrabold text-white text-base">Local Salem District Presence</h4>
+                <p class="text-emerald-100/65 text-sm mt-0.5">Conveniently located at Thulukkanur, Attur. Visit our location directly or order for swift delivery.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 Dark Stat Boxes (5 Cols) -->
+        <div class="lg:col-span-5 grid grid-cols-2 gap-4 reveal-on-scroll">
+          <div class="glass-dark rounded-3xl p-6 border border-white/10 hover:border-emerald-400/40 transition">
+            <i data-lucide="sprout" class="w-8 h-8 text-emerald-400"></i>
+            <div class="text-3xl font-extrabold mt-6 font-heading">365 Days</div>
+            <div class="text-xs text-emerald-200/70 mt-1 font-semibold uppercase tracking-wider">Silage Available</div>
+          </div>
+
+          <div class="glass-dark rounded-3xl p-6 border border-white/10 hover:border-emerald-400/40 transition mt-6">
+            <i data-lucide="zap" class="w-8 h-8 text-amber-400"></i>
+            <div class="text-3xl font-extrabold mt-6 font-heading">10x Faster</div>
+            <div class="text-xs text-emerald-200/70 mt-1 font-semibold uppercase tracking-wider">Milking & Cutting</div>
+          </div>
+
+          <div class="glass-dark rounded-3xl p-6 border border-white/10 hover:border-emerald-400/40 transition">
+            <i data-lucide="shield-check" class="w-8 h-8 text-emerald-400"></i>
+            <div class="text-3xl font-extrabold mt-6 font-heading">100%</div>
+            <div class="text-xs text-emerald-200/70 mt-1 font-semibold uppercase tracking-wider">Quality Tested</div>
+          </div>
+
+          <div class="glass-dark rounded-3xl p-6 border border-white/10 hover:border-emerald-400/40 transition mt-6">
+            <i data-lucide="phone-call" class="w-8 h-8 text-amber-400"></i>
+            <div class="text-3xl font-extrabold mt-6 font-heading">Instant</div>
+            <div class="text-xs text-emerald-200/70 mt-1 font-semibold uppercase tracking-wider">WhatsApp Support</div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FARM GALLERY SECTION (Interactive Lightbox)
+  ============================================================ -->
+  <section id="gallery" class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 reveal-on-scroll">
+        <div>
+          <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-100 text-agro-700 text-xs font-extrabold uppercase tracking-wider">
+            Field Photographs
+          </span>
+          <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-agro-950 mt-3 font-heading">
+            From the Field to the Dairy Shed.
+          </h2>
+        </div>
+        <p class="text-gray-500 max-w-md text-sm sm:text-base leading-relaxed">
+          Take a look at our agriculture feed, machinery, and happy dairy operations across Tamil Nadu.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mt-12">
+        
+        <!-- Large item: Pasture and Cattle Feed -->
+        <div class="col-span-2 row-span-2 rounded-3xl overflow-hidden h-[340px] sm:h-[500px] shadow-lg relative group cursor-pointer reveal-on-scroll" onclick="openLightbox('assets/images/cattle-feed.jpg', 'Quality Green Silage & Cattle Feed')">
+          <img
+            src="assets/images/cattle-feed.jpg"
+            alt="Lush green pasture and cattle feed"
+            class="w-full h-full object-cover group-hover:scale-105 transition duration-700"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-agro-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
+            <div>
+              <div class="text-xs font-bold text-emerald-300 uppercase tracking-wider">FODDER PRODUCTION</div>
+              <div class="text-white font-extrabold text-lg">High Nutrition Corn Silage</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2: Cow Image (replaces piglet) -->
+        <div class="rounded-3xl overflow-hidden h-[160px] sm:h-[240px] shadow-md relative group cursor-pointer reveal-on-scroll" onclick="openLightbox('assets/images/cow.jpg', 'Healthy Dairy Cattle Fed With Silage')">
+          <img
+            src="assets/images/cow.jpg"
+            alt="Healthy Dairy Cow"
+            class="w-full h-full object-cover group-hover:scale-105 transition duration-700"
+          />
+          <div class="absolute inset-0 bg-agro-950/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+            <i data-lucide="zoom-in" class="w-8 h-8 text-white"></i>
+          </div>
+        </div>
+
+        <!-- 3: Fresh Harvested Corn Silage -->
+        <div class="rounded-3xl overflow-hidden h-[160px] sm:h-[240px] shadow-md relative group cursor-pointer reveal-on-scroll" onclick="openLightbox('assets/images/images.jpg', 'Fresh Harvested Green Corn Silage')">
+          <img
+            src="assets/images/images.jpg"
+            alt="Fresh Green Corn Silage"
+            class="w-full h-full object-cover group-hover:scale-105 transition duration-700"
+          />
+          <div class="absolute inset-0 bg-agro-950/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+            <i data-lucide="zoom-in" class="w-8 h-8 text-white"></i>
+          </div>
+        </div>
+
+        <!-- 4: Modern Dairy Shed -->
+        <div class="rounded-3xl overflow-hidden h-[160px] sm:h-[240px] shadow-md relative group cursor-pointer reveal-on-scroll" onclick="openLightbox('assets/images/dairy-farm-shed.jpg', 'Dairy Herd Management & Modern Farm Shed')">
+          <img
+            src="assets/images/dairy-farm-shed.jpg"
+            alt="Dairy cattle in modern farm shed"
+            class="w-full h-full object-cover group-hover:scale-105 transition duration-700"
+          />
+          <div class="absolute inset-0 bg-agro-950/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+            <i data-lucide="zoom-in" class="w-8 h-8 text-white"></i>
+          </div>
+        </div>
+
+        <!-- 5: Chaff Cutter Machine in Action -->
+        <div class="rounded-3xl overflow-hidden h-[160px] sm:h-[240px] shadow-md relative group cursor-pointer reveal-on-scroll" onclick="openLightbox('assets/images/chaff-cutter.jpg', 'Heavy Duty Agri Chaff Cutter in Action')">
+          <img
+            src="assets/images/chaff-cutter.jpg"
+            alt="Agricultural Chaff Cutter Machine"
+            class="w-full h-full object-cover group-hover:scale-105 transition duration-700"
+          />
+          <div class="absolute inset-0 bg-agro-950/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+            <i data-lucide="zoom-in" class="w-8 h-8 text-white"></i>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FARMER TESTIMONIALS (Local Social Proof)
+  ============================================================ -->
+  <section class="py-20 bg-[#f7f9f4] border-y border-gray-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto reveal-on-scroll">
+        <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-100 text-agro-700 text-xs font-extrabold uppercase tracking-wider">
+          Farmer Feedback
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-agro-950 mt-3 font-heading">
+          Trusted by Farmers Across <span class="text-emerald-700">Salem & Tamil Nadu</span>
+        </h2>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6 mt-12">
+        
+        <!-- Review 1 -->
+        <div class="bg-white rounded-3xl p-7 shadow-sm border border-gray-100 lift-card reveal-on-scroll flex flex-col justify-between">
+          <div>
+            <div class="flex text-amber-400 gap-1 mb-4">
+              <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+            </div>
+            <p class="text-gray-600 text-sm leading-relaxed italic">
+              "We have 14 crossbred cows in Attur. During peak summer, green fodder was a big headache. Aruran's silage bags solved our issue. Milk yield increased by almost 1.5 liters per cow and milk fat is consistently high."
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-gray-100 flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-emerald-100 text-agro-900 font-extrabold flex items-center justify-center text-sm">
+              M
+            </div>
+            <div>
+              <div class="font-extrabold text-agro-950 text-sm">Murugesan K.</div>
+              <div class="text-xs text-gray-400">Dairy Farmer • Attur, Salem</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="bg-white rounded-3xl p-7 shadow-sm border border-gray-100 lift-card reveal-on-scroll flex flex-col justify-between">
+          <div>
+            <div class="flex text-amber-400 gap-1 mb-4">
+              <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+            </div>
+            <p class="text-gray-600 text-sm leading-relaxed italic">
+              "Purchased a 3HP heavy duty chaff cutter from Aruran Agro Solution. The blade cutting is super fine, and cattle eat every bit without wasting. Prompt delivery to our farm in Gangavalli with complete demo."
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-gray-100 flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-emerald-100 text-agro-900 font-extrabold flex items-center justify-center text-sm">
+              R
+            </div>
+            <div>
+              <div class="font-extrabold text-agro-950 text-sm">Ramasamy P.</div>
+              <div class="text-xs text-gray-400">Agri Farm Owner • Gangavalli</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="bg-white rounded-3xl p-7 shadow-sm border border-gray-100 lift-card reveal-on-scroll flex flex-col justify-between">
+          <div>
+            <div class="flex text-amber-400 gap-1 mb-4">
+              <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+            </div>
+            <p class="text-gray-600 text-sm leading-relaxed italic">
+              "We got the single bucket trolley milking machine. It saves over 1.5 hours of manual work every morning and evening. Gentle on the cow udders and very easy to clean. Highly recommended for dairy owners."
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-gray-100 flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-emerald-100 text-agro-900 font-extrabold flex items-center justify-center text-sm">
+              S
+            </div>
+            <div>
+              <div class="font-extrabold text-agro-950 text-sm">Senthil Kumar</div>
+              <div class="text-xs text-gray-400">Livestock Farm • Thalaivasal</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FAQ ACCORDION (Farmer Common Questions)
+  ============================================================ -->
+  <section id="faq" class="py-24 bg-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center reveal-on-scroll">
+        <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-100 text-agro-700 text-xs font-extrabold uppercase tracking-wider">
+          Got Questions?
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-agro-950 mt-3 font-heading">
+          Frequently Asked Questions
+        </h2>
+        <p class="text-gray-500 mt-2 text-sm sm:text-base">
+          Quick answers to help you make an informed decision for your farm.
+        </p>
+      </div>
+
+      <div class="mt-12 space-y-4 reveal-on-scroll">
+        
+        <!-- FAQ 1 -->
+        <div class="faq-item border border-gray-200 rounded-2xl p-5 hover:border-emerald-300 transition cursor-pointer" onclick="toggleFaq(this)">
+          <div class="flex items-center justify-between gap-4">
+            <h3 class="font-extrabold text-base text-agro-950">How long can the sealed silage bags be stored?</h3>
+            <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-emerald-700 transition-transform duration-300"></i>
+          </div>
+          <div class="faq-content hidden mt-3 pt-3 border-t border-gray-100 text-sm text-gray-600 leading-relaxed">
+            Our silage is packed in heavy-duty 7-layer UV-stabilized airtight 50kg bags. As long as the bag remains sealed and undamaged, it stays fresh and highly nutritious for 12 to 18 months. Once opened, we recommend using the bag within 3 to 5 days.
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="faq-item border border-gray-200 rounded-2xl p-5 hover:border-emerald-300 transition cursor-pointer" onclick="toggleFaq(this)">
+          <div class="flex items-center justify-between gap-4">
+            <h3 class="font-extrabold text-base text-agro-950">What electric power phase is needed for the Chaff Cutter?</h3>
+            <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-emerald-700 transition-transform duration-300"></i>
+          </div>
+          <div class="faq-content hidden mt-3 pt-3 border-t border-gray-100 text-sm text-gray-600 leading-relaxed">
+            We provide chaff cutters in both <strong>Single-Phase (220V domestic or farm line)</strong> and <strong>Three-Phase</strong> configurations. The 2HP to 3HP models run effortlessly on regular single-phase farm electricity, so you do not need a separate commercial connection.
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="faq-item border border-gray-200 rounded-2xl p-5 hover:border-emerald-300 transition cursor-pointer" onclick="toggleFaq(this)">
+          <div class="flex items-center justify-between gap-4">
+            <h3 class="font-extrabold text-base text-agro-950">Do you provide doorstep delivery to our village?</h3>
+            <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-emerald-700 transition-transform duration-300"></i>
+          </div>
+          <div class="faq-content hidden mt-3 pt-3 border-t border-gray-100 text-sm text-gray-600 leading-relaxed">
+            Yes! We arrange direct mini-truck, pickup, or parcel transport delivery across Attur, Salem, Namakkal, Kallakurichi, Dharmapuri, Perambalur, and all across Tamil Nadu right to your farm gate. Contact us for freight details.
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="faq-item border border-gray-200 rounded-2xl p-5 hover:border-emerald-300 transition cursor-pointer" onclick="toggleFaq(this)">
+          <div class="flex items-center justify-between gap-4">
+            <h3 class="font-extrabold text-base text-agro-950">Is the milking machine safe for cows? Will it cause infection?</h3>
+            <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-emerald-700 transition-transform duration-300"></i>
+          </div>
+          <div class="faq-content hidden mt-3 pt-3 border-t border-gray-100 text-sm text-gray-600 leading-relaxed">
+            Our milking machines use medical food-grade silicone liners and a factory-calibrated 60:40 pulsation cycle that simulates a calf's natural suckling action. It massages the teats and prevents congestion or mastitis, ensuring complete udder health.
+          </div>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="faq-item border border-gray-200 rounded-2xl p-5 hover:border-emerald-300 transition cursor-pointer" onclick="toggleFaq(this)">
+          <div class="flex items-center justify-between gap-4">
+            <h3 class="font-extrabold text-base text-agro-950">How do I place an order or get current prices?</h3>
+            <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-emerald-700 transition-transform duration-300"></i>
+          </div>
+          <div class="faq-content hidden mt-3 pt-3 border-t border-gray-100 text-sm text-gray-600 leading-relaxed">
+            You can call us directly at <strong>+91 79048 93635</strong> or tap the WhatsApp button anywhere on this page. Tell us your location and requirement, and we will send you the quotation, product photos, and dispatch time immediately.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT & ENQUIRY SECTION (WhatsApp Form + Maps)
+  ============================================================ -->
+  <section id="contact" class="py-24 bg-[#fafbf8] border-t border-gray-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid lg:grid-cols-12 gap-12">
+        
+        <!-- Contact Information (5 Cols) -->
+        <div class="lg:col-span-5 reveal-on-scroll">
+          <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-100 text-agro-700 text-xs font-extrabold uppercase tracking-wider">
+            Contact Information
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-agro-950 mt-3 font-heading">
+            Let's Talk About Your <span class="text-emerald-700">Farm's Growth.</span>
+          </h2>
+          <p class="text-gray-600 text-sm sm:text-base leading-relaxed mt-4">
+            Have questions about silage availability, machinery specifications, or need a price quote? Reach out directly via call, WhatsApp, or visit our Attur premises.
+          </p>
+
+          <div class="mt-8 space-y-4">
+            
+            <!-- Phone Call Card -->
+            <a
+              href="tel:+917904893635"
+              class="flex items-center gap-4 p-4 sm:p-5 rounded-2xl bg-white border border-gray-200 hover:border-emerald-400 hover:bg-emerald-50/50 transition shadow-sm group"
+            >
+              <div class="w-12 h-12 rounded-xl bg-emerald-100 text-agro-800 flex items-center justify-center shrink-0 group-hover:scale-105 transition">
+                <i data-lucide="phone" class="w-6 h-6 text-emerald-700"></i>
+              </div>
+              <div>
+                <div class="text-[11px] font-bold text-gray-500 uppercase tracking-wider">PHONE & WHATSAPP</div>
+                <div class="text-lg font-extrabold text-agro-950 mt-0.5">+91 79048 93635</div>
+                <div class="text-xs text-emerald-600 font-semibold">Click to call immediately</div>
+              </div>
+            </a>
+
+            <!-- Address Card -->
+            <div class="flex items-start gap-4 p-4 sm:p-5 rounded-2xl bg-white border border-gray-200 shadow-sm">
+              <div class="w-12 h-12 rounded-xl bg-emerald-100 text-agro-800 flex items-center justify-center shrink-0 mt-0.5">
+                <i data-lucide="map-pin" class="w-6 h-6 text-emerald-700"></i>
+              </div>
+              <div>
+                <div class="text-[11px] font-bold text-gray-500 uppercase tracking-wider">OFFICE & YARD ADDRESS</div>
+                <div class="font-extrabold text-agro-950 text-sm sm:text-base mt-1 leading-snug">
+                  Aruran Agro Solution
+                </div>
+                <p class="text-gray-600 text-xs sm:text-sm mt-1 leading-relaxed">
+                  Rasi Nagar, 1/297, Thullukanur P.O,<br />
+                  Attur, Kallanatham, Thulukkanur,<br />
+                  Salem District, Tamil Nadu – 636141
+                </p>
+              </div>
+            </div>
+
+            <!-- Google Maps Button -->
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=Aruran+Agro+Solution,+Thulukkanur,+Attur,+Salem,+Tamil+Nadu+636141"
+              target="_blank"
+              class="flex items-center justify-between p-4 sm:p-5 rounded-2xl bg-agro-950 text-white hover:bg-agro-900 transition shadow-md group"
+            >
+              <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center text-emerald-400">
+                  <i data-lucide="navigation" class="w-5 h-5"></i>
+                </div>
+                <div>
+                  <div class="text-[10px] font-bold text-emerald-300 uppercase tracking-wider">NAVIGATE WITH GPS</div>
+                  <div class="font-extrabold text-sm sm:text-base">Open in Google Maps</div>
+                </div>
+              </div>
+              <i data-lucide="arrow-up-right" class="w-5 h-5 text-emerald-400 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform"></i>
+            </a>
+
+          </div>
+        </div>
+
+        <!-- WhatsApp Quick Lead Generator Form (7 Cols) -->
+        <div class="lg:col-span-7 reveal-on-scroll">
+          <div class="bg-white rounded-3xl p-6 sm:p-10 border border-gray-200 shadow-xl relative">
+            
+            <div class="flex items-center gap-3.5 pb-6 border-b border-gray-100">
+              <div class="w-12 h-12 rounded-2xl bg-emerald-500 text-white flex items-center justify-center shadow-md">
+                <i data-lucide="message-square-quote" class="w-6 h-6"></i>
+              </div>
+              <div>
+                <h3 class="text-xl font-extrabold text-agro-950 font-heading">Direct Product Enquiry</h3>
+                <p class="text-xs text-gray-500">Fill details below to launch pre-formatted WhatsApp chat directly.</p>
+              </div>
+            </div>
+
+            <form id="leadEnquiryForm" class="mt-6 space-y-4">
+              
+              <div class="grid sm:grid-cols-2 gap-4">
+                <div>
+                  <label for="leadName" class="block text-xs font-extrabold uppercase text-gray-700 tracking-wider mb-1.5">
+                    Your Name *
+                  </label>
+                  <input
+                    id="leadName"
+                    type="text"
+                    required
+                    placeholder="e.g. Ramesh Kumar"
+                    class="w-full px-4 py-3.5 rounded-xl border border-gray-200 bg-gray-50/50 text-sm font-semibold form-input-focus outline-none"
+                  />
+                </div>
+
+                <div>
+                  <label for="leadPhone" class="block text-xs font-extrabold uppercase text-gray-700 tracking-wider mb-1.5">
+                    Mobile Phone *
+                  </label>
+                  <input
+                    id="leadPhone"
+                    type="tel"
+                    required
+                    placeholder="e.g. 98765 43210"
+                    class="w-full px-4 py-3.5 rounded-xl border border-gray-200 bg-gray-50/50 text-sm font-semibold form-input-focus outline-none"
+                  />
+                </div>
+              </div>
+
+              <div class="grid sm:grid-cols-2 gap-4">
+                <div>
+                  <label for="leadLocation" class="block text-xs font-extrabold uppercase text-gray-700 tracking-wider mb-1.5">
+                    Village / Town / District *
+                  </label>
+                  <input
+                    id="leadLocation"
+                    type="text"
+                    required
+                    placeholder="e.g. Thalaivasal / Salem"
+                    class="w-full px-4 py-3.5 rounded-xl border border-gray-200 bg-gray-50/50 text-sm font-semibold form-input-focus outline-none"
+                  />
+                </div>
+
+                <div>
+                  <label for="leadProduct" class="block text-xs font-extrabold uppercase text-gray-700 tracking-wider mb-1.5">
+                    Product Needed *
+                  </label>
+                  <select
+                    id="leadProduct"
+                    class="w-full px-4 py-3.5 rounded-xl border border-gray-200 bg-gray-50/50 text-sm font-semibold form-input-focus outline-none"
+                  >
+                    <option value="Quality Corn Silage (50kg Bags)">Quality Corn Silage (50kg Bags)</option>
+                    <option value="Chaff / Grass Cutter Machine (2HP to 5HP)">Chaff / Grass Cutter Machine (2HP to 5HP)</option>
+                    <option value="Automatic Milking Machine">Automatic Milking Machine</option>
+                    <option value="Cattle Feed & Mineral Mixture">Cattle Feed & Mineral Mixture</option>
+                    <option value="Dairy Accessories / Cow Mats">Dairy Accessories / Cow Mats</option>
+                    <option value="Bulk Farm Requirement / Other">Bulk Farm Requirement / Other</option>
+                  </select>
+                </div>
+              </div>
+
+              <div>
+                <label for="leadMessage" class="block text-xs font-extrabold uppercase text-gray-700 tracking-wider mb-1.5">
+                  Quantity or Specific Requirement
+                </label>
+                <textarea
+                  id="leadMessage"
+                  rows="3"
+                  placeholder="e.g. Need 40 bags of silage delivered to Thalaivasal, please share rate."
+                  class="w-full px-4 py-3.5 rounded-xl border border-gray-200 bg-gray-50/50 text-sm font-semibold form-input-focus outline-none resize-none"
+                ></textarea>
+              </div>
+
+              <button
+                type="submit"
+                class="w-full flex items-center justify-center gap-2 py-4 px-6 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-base transition shadow-lg hover:shadow-emerald-600/30"
+              >
+                <i data-lucide="message-circle" class="w-5 h-5"></i>
+                <span>Send Enquiry on WhatsApp</span>
+              </button>
+
+              <div class="text-center text-xs text-gray-400 mt-2">
+                🔒 We protect your privacy. Your message opens directly in your official WhatsApp app.
+              </div>
+
+            </form>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- GOOGLE MAPS EMBED -->
+      <div class="mt-16 rounded-3xl overflow-hidden shadow-lg border border-gray-200 reveal-on-scroll">
+        <iframe
+          src="https://www.google.com/maps?q=Aruran%20Agro%20Solution%2C%20Thulukkanur%2C%20Attur%2C%20Salem%2C%20Tamil%20Nadu%20636141&output=embed"
+          width="100%"
+          height="380"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Aruran Agro Solution Attur Google Map"
+        ></iframe>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       MAIN FOOTER
+  ============================================================ -->
+  <footer class="bg-agro-950 text-white border-t border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      
+      <div class="grid md:grid-cols-2 lg:grid-cols-12 gap-10">
+        
+        <!-- Brand Summary (5 cols) -->
+        <div class="lg:col-span-5">
+          <div class="flex items-center gap-3">
+            <div class="w-12 h-12 rounded-full overflow-hidden bg-white p-0.5 flex items-center justify-center ring-2 ring-emerald-500/40 shrink-0">
+              <img
+                src="assets/logos/file_00000000665482079792b6dcfb745185.png"
+                alt="Aruran Agro Solution Logo"
+                class="w-full h-full object-contain rounded-full"
+              />
+            </div>
+            <div>
+              <div class="font-extrabold text-xl tracking-tight">ARURAN</div>
+              <div class="text-[10px] font-bold tracking-[0.25em] text-emerald-400 uppercase">AGRO SOLUTION</div>
+            </div>
+          </div>
+
+          <p class="text-emerald-100/70 text-sm leading-relaxed mt-5 max-w-sm">
+            Empowering agriculture and dairy businesses with fermented corn silage, high-output chaff cutters, milking automation, and dedicated farmer support in Attur, Salem.
+          </p>
+
+          <div class="mt-6 flex items-center gap-3">
+            <span class="px-3 py-1 rounded-full bg-white/10 text-emerald-300 text-xs font-bold border border-white/10">
+              Better Silage
+            </span>
+            <span class="text-white/40">•</span>
+            <span class="px-3 py-1 rounded-full bg-white/10 text-emerald-300 text-xs font-bold border border-white/10">
+              Better Nutrition
+            </span>
+            <span class="text-white/40">•</span>
+            <span class="px-3 py-1 rounded-full bg-white/10 text-emerald-300 text-xs font-bold border border-white/10">
+              Better Yield
+            </span>
+          </div>
+        </div>
+
+        <!-- Quick Links (2 cols) -->
+        <div class="lg:col-span-2">
+          <div class="font-extrabold text-sm tracking-wider uppercase text-emerald-300 mb-4 font-heading">
+            Navigation
+          </div>
+          <ul class="space-y-2.5 text-sm text-emerald-100/75">
+            <li><a href="#home" class="hover:text-white transition">Home</a></li>
+            <li><a href="#about" class="hover:text-white transition">About Us</a></li>
+            <li><a href="#products" class="hover:text-white transition">Products & Machinery</a></li>
+            <li><a href="#calculator" class="hover:text-white transition">Silage Calculator</a></li>
+            <li><a href="#services" class="hover:text-white transition">Services & Delivery</a></li>
+            <li><a href="#gallery" class="hover:text-white transition">Farm Gallery</a></li>
+            <li><a href="#faq" class="hover:text-white transition">FAQ</a></li>
+          </ul>
+        </div>
+
+        <!-- Products List (2 cols) -->
+        <div class="lg:col-span-2">
+          <div class="font-extrabold text-sm tracking-wider uppercase text-emerald-300 mb-4 font-heading">
+            Our Products
+          </div>
+          <ul class="space-y-2.5 text-sm text-emerald-100/75">
+            <li><a href="#products" class="hover:text-white transition">Quality Corn Silage</a></li>
+            <li><a href="#products" class="hover:text-white transition">2HP - 5HP Chaff Cutters</a></li>
+            <li><a href="#products" class="hover:text-white transition">Milking Machines</a></li>
+            <li><a href="#products" class="hover:text-white transition">Cattle Mineral Mix</a></li>
+            <li><a href="#products" class="hover:text-white transition">Rubber Cow Mats</a></li>
+            <li><a href="#products" class="hover:text-white transition">SS 304 Milk Cans</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Quick (3 cols) -->
+        <div class="lg:col-span-3">
+          <div class="font-extrabold text-sm tracking-wider uppercase text-emerald-300 mb-4 font-heading">
+            Direct Contact
+          </div>
+          <div class="space-y-3.5 text-sm text-emerald-100/75">
+            <a href="tel:+917904893635" class="flex items-center gap-2.5 hover:text-white transition">
+              <i data-lucide="phone" class="w-4 h-4 text-emerald-400 shrink-0"></i>
+              <span>+91 79048 93635</span>
+            </a>
+            <a href="https://wa.me/917904893635" target="_blank" class="flex items-center gap-2.5 hover:text-white transition">
+              <i data-lucide="message-circle" class="w-4 h-4 text-emerald-400 shrink-0"></i>
+              <span>WhatsApp Direct Chat</span>
+            </a>
+            <div class="flex items-start gap-2.5">
+              <i data-lucide="map-pin" class="w-4 h-4 text-emerald-400 shrink-0 mt-1"></i>
+              <span>Rasi Nagar, Thullukanur, Attur, Salem, Tamil Nadu 636141</span>
+            </div>
+            <div class="pt-2">
+              <span class="inline-block px-3 py-1 rounded bg-emerald-500/20 text-emerald-300 text-xs font-bold border border-emerald-500/30">
+                Operating Mon - Sun: 7 AM - 9 PM
+              </span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Copyright & Bottom Credit -->
+      <div class="mt-14 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-emerald-200/50">
+        <div>
+          © <span id="currentYear"></span> Aruran Agro Solution. All rights reserved.
+        </div>
+        <div class="flex items-center gap-4">
+          <span>Attur, Salem, Tamil Nadu</span>
+          <span>•</span>
+          <span>Single-File Standalone Architecture</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       PRODUCT DETAILS MODAL DIALOG
+  ============================================================ -->
+  <div
+    id="productDetailsModal"
+    class="custom-modal fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-6 bg-black/70 backdrop-blur-sm"
+    role="dialog"
+    aria-modal="true"
+  >
+    <div class="custom-modal-dialog bg-white rounded-3xl max-w-xl w-full p-6 sm:p-8 relative shadow-2xl max-h-[90vh] overflow-y-auto">
+      
+      <!-- Close Button -->
+      <button
+        onclick="closeProductModal()"
+        class="absolute top-5 right-5 w-10 h-10 rounded-full bg-gray-100 hover:bg-gray-200 text-gray-600 flex items-center justify-center transition"
+        aria-label="Close modal"
+      >
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+
+      <!-- Modal Category & Icon -->
+      <div class="flex items-center gap-3">
+        <div id="modalIconBox" class="w-12 h-12 rounded-2xl bg-emerald-100 text-agro-800 flex items-center justify-center">
+          <i id="modalIcon" data-lucide="wheat" class="w-6 h-6 text-emerald-700"></i>
+        </div>
+        <div>
+          <span id="modalCategory" class="text-xs font-extrabold uppercase tracking-wider text-emerald-700">
+            Product Details
+          </span>
+          <h3 id="modalTitle" class="text-2xl font-extrabold text-agro-950 font-heading mt-0.5">
+            Product Name
+          </h3>
+        </div>
+      </div>
+
+      <!-- Description -->
+      <p id="modalDesc" class="text-gray-600 text-sm sm:text-base leading-relaxed mt-5">
+        Product detailed description.
+      </p>
+
+      <!-- Specifications List -->
+      <div class="mt-6 bg-[#f7faf5] rounded-2xl p-4 border border-gray-100">
+        <div class="text-xs font-bold text-gray-500 uppercase tracking-wider mb-2">Key Specifications</div>
+        <ul id="modalSpecs" class="space-y-2 text-xs sm:text-sm text-gray-700">
+          <!-- Dynamic specs injected here -->
+        </ul>
+      </div>
+
+      <!-- Actions -->
+      <div class="mt-7 flex flex-col sm:flex-row gap-3">
+        <a
+          id="modalWhatsAppBtn"
+          href="#"
+          target="_blank"
+          class="flex-1 flex items-center justify-center gap-2 py-3.5 px-5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-sm transition shadow-md"
+        >
+          <i data-lucide="message-circle" class="w-4 h-4"></i>
+          <span>Enquire on WhatsApp</span>
+        </a>
+
+        <a
+          href="tel:+917904893635"
+          class="flex items-center justify-center gap-2 py-3.5 px-6 rounded-xl border border-gray-300 font-extrabold text-agro-950 hover:bg-gray-100 text-sm transition"
+        >
+          <i data-lucide="phone" class="w-4 h-4 text-emerald-700"></i>
+          <span>Direct Call</span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ============================================================
+       IMAGE LIGHTBOX MODAL
+  ============================================================ -->
+  <div
+    id="galleryLightbox"
+    class="custom-modal fixed inset-0 z-[110] flex items-center justify-center p-4 bg-black/85 backdrop-blur-md"
+    onclick="closeLightbox()"
+  >
+    <div class="relative max-w-4xl w-full" onclick="event.stopPropagation()">
+      <button
+        onclick="closeLightbox()"
+        class="absolute -top-12 right-0 w-10 h-10 rounded-full bg-white/20 hover:bg-white text-white hover:text-black flex items-center justify-center transition"
+        aria-label="Close"
+      >
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+      <img
+        id="lightboxImg"
+        src=""
+        alt="Preview"
+        class="w-full max-h-[80vh] object-contain rounded-2xl shadow-2xl"
+      />
+      <div id="lightboxCaption" class="text-white text-center text-sm font-semibold mt-3"></div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       FLOATING ACTIONS (WhatsApp Bubble & Back to Top)
+  ============================================================ -->
+  <div class="fixed right-5 bottom-5 z-40 flex flex-col items-end gap-3">
+    
+    <!-- Back to top button -->
+    <button
+      id="backToTopBtn"
+      onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+      class="w-11 h-11 rounded-full bg-white text-agro-950 shadow-xl border border-gray-200 flex items-center justify-center opacity-0 pointer-events-none transition-all duration-300 hover:bg-gray-50"
+      aria-label="Back to Top"
+    >
+      <i data-lucide="arrow-up" class="w-5 h-5"></i>
+    </button>
+
+    <!-- WhatsApp Floating Action -->
+    <a
+      href="https://wa.me/917904893635?text=Hello%20Aruran%20Agro%20Solution%2C%20I%20would%20like%20to%20make%20an%20enquiry."
+      target="_blank"
+      class="group relative flex items-center justify-center w-14 h-14 rounded-full bg-[#25D366] text-white shadow-2xl hover:scale-110 active:scale-95 transition-all duration-300"
+      aria-label="Chat on WhatsApp"
+    >
+      <i data-lucide="message-circle" class="w-7 h-7"></i>
+      <span class="absolute right-16 px-3 py-1.5 rounded-xl bg-agro-950 text-white text-xs font-bold whitespace-nowrap shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none border border-white/10 hidden sm:block">
+        Need Silage or Equipment? Chat with us!
+      </span>
+    </a>
+  </div>
+
+  <!-- ============================================================
+       COMPLETE EMBEDDED JAVASCRIPT LOGIC
+  ============================================================ -->
+  <script>
+    /* Initialize Lucide Icons */
+    document.addEventListener("DOMContentLoaded", () => {
+      if (window.lucide) {
+        lucide.createIcons();
+      }
+      initAll();
+    });
+
+    function initAll() {
+      // Set Copyright Year
+      const yearEl = document.getElementById("currentYear");
+      if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+      // Navbar Scroll Listener
+      const navbar = document.getElementById("mainNavbar");
+      const backToTopBtn = document.getElementById("backToTopBtn");
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 40) {
+          navbar.classList.add("nav-scrolled");
+        } else {
+          navbar.classList.remove("nav-scrolled");
+        }
+
+        if (window.scrollY > 450) {
+          backToTopBtn.classList.remove("opacity-0", "pointer-events-none");
+        } else {
+          backToTopBtn.classList.add("opacity-0", "pointer-events-none");
+        }
+      });
+
+      // Mobile Menu Toggle
+      const mobileNavToggle = document.getElementById("mobileNavToggle");
+      const mobileMenuContainer = document.getElementById("mobileMenuContainer");
+
+      if (mobileNavToggle && mobileMenuContainer) {
+        mobileNavToggle.addEventListener("click", () => {
+          mobileMenuContainer.classList.toggle("hidden");
+          const isOpened = !mobileMenuContainer.classList.contains("hidden");
+          mobileNavToggle.innerHTML = isOpened
+            ? '<i data-lucide="x" class="w-7 h-7"></i>'
+            : '<i data-lucide="menu" class="w-7 h-7"></i>';
+          lucide.createIcons();
+        });
+
+        // Close mobile menu on click of any mobile link
+        document.querySelectorAll(".mobile-nav-link").forEach(link => {
+          link.addEventListener("click", () => {
+            mobileMenuContainer.classList.add("hidden");
+            mobileNavToggle.innerHTML = '<i data-lucide="menu" class="w-7 h-7"></i>';
+            lucide.createIcons();
+          });
+        });
+      }
+
+      // Scroll Reveal Observer
+      const reveals = document.querySelectorAll(".reveal-on-scroll");
+      if ("IntersectionObserver" in window) {
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("active");
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.1 });
+
+        reveals.forEach(el => observer.observe(el));
+      } else {
+        reveals.forEach(el => el.classList.add("active"));
+      }
+
+      // Initialize Products Filtering
+      initProductFilter();
+
+      // Initialize Silage Calculator
+      initSilageCalculator();
+
+      // Initialize WhatsApp Lead Generator Form
+      initLeadForm();
+    }
+
+    /* ============================================================
+       PRODUCTS FILTERING
+    ============================================================ */
+    function initProductFilter() {
+      const filterBtns = document.querySelectorAll(".filter-tab-btn");
+      const productItems = document.querySelectorAll(".product-item");
+
+      filterBtns.forEach(btn => {
+        btn.addEventListener("click", () => {
+          filterBtns.forEach(b => {
+            b.classList.remove("active", "bg-agro-900", "text-white");
+            b.classList.add("bg-gray-100", "text-gray-700");
+          });
+
+          btn.classList.add("active", "bg-agro-900", "text-white");
+          btn.classList.remove("bg-gray-100", "text-gray-700");
+
+          const filter = btn.getAttribute("data-filter");
+
+          productItems.forEach(item => {
+            if (filter === "all" || item.getAttribute("data-category") === filter) {
+              item.style.display = "flex";
+            } else {
+              item.style.display = "none";
+            }
+          });
+        });
+      });
+    }
+
+    /* ============================================================
+       SILAGE & FODDER CALCULATOR
+    ============================================================ */
+    function initSilageCalculator() {
+      const cowsSlider = document.getElementById("cowsSlider");
+      const cowsDisplay = document.getElementById("cowsCountDisplay");
+      const feedBtns = document.querySelectorAll(".feed-btn");
+      const durationSelect = document.getElementById("calcDuration");
+
+      const totalKgDisplay = document.getElementById("totalKgDisplay");
+      const bagsDisplay = document.getElementById("bagsDisplay");
+      const dailyKgDisplay = document.getElementById("dailyKgDisplay");
+      const calcWhatsAppBtn = document.getElementById("calcWhatsAppBtn");
+
+      let selectedFeedPerDay = 10;
+
+      function updateCalculation() {
+        const count = parseInt(cowsSlider.value, 10);
+        cowsDisplay.textContent = count === 1 ? "1 Animal" : `${count} Animals`;
+
+        const days = parseInt(durationSelect.value, 10);
+        const dailyTotal = count * selectedFeedPerDay;
+        const totalKg = dailyTotal * days;
+        const totalBags = Math.ceil(totalKg / 50);
+
+        totalKgDisplay.textContent = totalKg.toLocaleString("en-IN");
+        bagsDisplay.textContent = `${totalBags} Bags`;
+        dailyKgDisplay.textContent = `${dailyTotal} kg / day`;
+
+        const msg = `Hello Aruran Agro Solution,%0A%0AI used your Silage Calculator:%0A- Dairy Animals: ${count}%0A- Daily Feeding: ${selectedFeedPerDay} kg per animal%0A- Total Silage: ${totalKg.toLocaleString("en-IN")} kg (${totalBags} bags for ${days} days)%0A%0APlease quote the price with delivery to my location.`;
+        calcWhatsAppBtn.href = `https://wa.me/917904893635?text=${msg}`;
+      }
+
+      cowsSlider.addEventListener("input", updateCalculation);
+      durationSelect.addEventListener("change", updateCalculation);
+
+      feedBtns.forEach(btn => {
+        btn.addEventListener("click", () => {
+          feedBtns.forEach(b => {
+            b.classList.remove("border-emerald-500", "bg-emerald-50", "text-emerald-800");
+            b.classList.add("border-gray-200", "text-gray-700");
+          });
+          btn.classList.add("border-emerald-500", "bg-emerald-50", "text-emerald-800");
+          btn.classList.remove("border-gray-200", "text-gray-700");
+
+          selectedFeedPerDay = parseInt(btn.getAttribute("data-feed"), 10);
+          updateCalculation();
+        });
+      });
+
+      updateCalculation();
+    }
+
+    /* ============================================================
+       PRODUCT DETAILS MODAL DATA & CONTROLLER
+    ============================================================ */
+    const productCatalog = {
+      silage: {
+        category: "CATTLE NUTRITION • 50KG BAGS",
+        title: "Quality Fermented Corn Silage",
+        icon: "wheat",
+        desc: "Our silage is made from prime whole-plant corn harvested at 65-70% moisture and packed in heavy-duty 7-layer UV airtight bags. Lactic fermentation preserves high starches and proteins, providing complete digestible nutrients 365 days a year.",
+        specs: [
+          "<strong>Packaging:</strong> 50 kg weather-proof vacuum-sealed bags",
+          "<strong>Dry Matter / Moisture:</strong> 32-35% Dry Matter / 65-68% Moisture",
+          "<strong>Crude Protein:</strong> 7.5% - 9.0% with high digestible starch",
+          "<strong>pH Level:</strong> Optimal 3.8 - 4.2 (Excellent lactic preservation)",
+          "<strong>Shelf Life:</strong> 12 to 18 months in unopened condition"
+        ]
+      },
+      cutter: {
+        category: "FARM MECHANIZATION • CHAFF CUTTERS",
+        title: "Chaff / Agri Grass Cutter (2HP - 5HP)",
+        icon: "settings-2",
+        desc: "Heavy-duty electric grass cutting machine designed for cutting green Napier grass, Co-4, Co-5, corn stalks, sugarcane tops, and dry straw. Eliminates fodder wastage, aids rumen digestion, and reduces feeding time drastically.",
+        specs: [
+          "<strong>Motor Capacity:</strong> 2HP, 3HP, and 5HP (Single Phase / 3 Phase available)",
+          "<strong>Blade Material:</strong> High-carbon heat-treated hardened steel (4 Blades)",
+          "<strong>Cutting Capacity:</strong> 600 kg to 1,200 kg per hour",
+          "<strong>Safety & Gears:</strong> Reverse / Forward gearbox with protective emergency stop",
+          "<strong>Warranty:</strong> 1 Year Manufacturer Warranty with spares support"
+        ]
+      },
+      milking: {
+        category: "DAIRY AUTOMATION • MILKING EQUIPMENT",
+        title: "Trolley Automatic Milking Machine",
+        icon: "milk",
+        desc: "Ergonomic mobile milking system with silent oil-lubricated vacuum pump and SS 304 food-grade can. Delivers consistent pulsation mimicking calf suckling to keep udders healthy, avoid mastitis, and harvest purest hygienic milk.",
+        specs: [
+          "<strong>Configuration:</strong> Single Bucket (10-12 cows/hr) or Double Bucket (20-25 cows/hr)",
+          "<strong>Can Material:</strong> Food-Grade Stainless Steel SS 304 (25 Liter capacity)",
+          "<strong>Vacuum Pump:</strong> Heavy-duty oil-lubricated rotary pump with oil recirculator",
+          "<strong>Liners:</strong> 100% Food-Grade transparent silicone teat cups",
+          "<strong>Pulsator:</strong> Pneumatic 60:40 pulsation ratio with adjustable rate"
+        ]
+      },
+      feed: {
+        category: "ANIMAL NUTRITION • CONCENTRATE",
+        title: "Balanced Cattle Feed & Mineral Mixture",
+        icon: "heart-pulse",
+        desc: "Scientifically enriched feed supplements formulated to fulfill the daily nutritional requirements of high-yielding dairy cows and buffaloes. Enhances conception rate, strengthens bone density, and ensures consistent fat and SNF.",
+        specs: [
+          "<strong>Contains:</strong> Bypass protein, chelated calcium, phosphorus, zinc, copper, & cobalt",
+          "<strong>Vitamins:</strong> Enriched with Vitamin A, D3, E, and biotin for hoof integrity",
+          "<strong>Packaging:</strong> 25kg & 50kg moisture-barrier bags",
+          "<strong>Recommended Dosage:</strong> 50g to 100g daily per animal"
+        ]
+      },
+      dairy: {
+        category: "FARM ACCESSORIES • COW COMFORT",
+        title: "Dairy Equipment, Rubber Mats & SS Cans",
+        icon: "factory",
+        desc: "Complete range of dairy accessories that improve farm hygiene and cow comfort. Our 24mm vulcanized rubber cow mats prevent knee injuries, arthritis, and slip-and-fall accidents, increasing resting hours and milk output.",
+        specs: [
+          "<strong>Rubber Cow Mats:</strong> Heavy-duty 24mm textured anti-skid mats (6ft x 4ft)",
+          "<strong>Stainless Steel Cans:</strong> Seamless 20L, 30L, and 40L milk cans with airtight lids",
+          "<strong>Sanitization:</strong> Teat dip cups and food-grade milking system sanitizing powder",
+          "<strong>Cow Brushes:</strong> Manual & automatic revolving cow comfort brushes"
+        ]
+      }
+    };
+
+    function openProductModal(key) {
+      const data = productCatalog[key];
+      if (!data) return;
+
+      document.getElementById("modalCategory").textContent = data.category;
+      document.getElementById("modalTitle").textContent = data.title;
+      document.getElementById("modalDesc").textContent = data.desc;
+
+      const specsList = document.getElementById("modalSpecs");
+      specsList.innerHTML = data.specs.map(s => `<li class="flex items-start gap-2"><span class="text-emerald-600 font-bold">•</span><span>${s}</span></li>`).join("");
+
+      const msg = `Hello Aruran Agro Solution,%0A%0AI would like to get a quote and details for:%0A*${data.title}*%0A%0APlease share availability, technical specifications, and delivery pricing to my location.`;
+      document.getElementById("modalWhatsAppBtn").href = `https://wa.me/917904893635?text=${msg}`;
+
+      const modal = document.getElementById("productDetailsModal");
+      modal.classList.add("is-open");
+      document.body.style.overflow = "hidden";
+
+      if (window.lucide) lucide.createIcons();
+    }
+
+    function closeProductModal() {
+      const modal = document.getElementById("productDetailsModal");
+      modal.classList.remove("is-open");
+      document.body.style.overflow = "";
+    }
+
+    // Close on backdrop click & ESC key
+    document.getElementById("productDetailsModal").addEventListener("click", (e) => {
+      if (e.target.id === "productDetailsModal") closeProductModal();
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") {
+        closeProductModal();
+        closeLightbox();
+      }
+    });
+
+    /* ============================================================
+       GALLERY LIGHTBOX
+    ============================================================ */
+    function openLightbox(imgSrc, caption) {
+      const lightbox = document.getElementById("galleryLightbox");
+      const img = document.getElementById("lightboxImg");
+      const cap = document.getElementById("lightboxCaption");
+
+      img.src = imgSrc;
+      cap.textContent = caption || "";
+      lightbox.classList.add("is-open");
+      document.body.style.overflow = "hidden";
+      if (window.lucide) lucide.createIcons();
+    }
+
+    function closeLightbox() {
+      const lightbox = document.getElementById("galleryLightbox");
+      lightbox.classList.remove("is-open");
+      document.body.style.overflow = "";
+    }
+
+    /* ============================================================
+       FAQ TOGGLE
+    ============================================================ */
+    function toggleFaq(el) {
+      const content = el.querySelector(".faq-content");
+      const icon = el.querySelector(".faq-icon");
+      const isOpen = !content.classList.contains("hidden");
+
+      document.querySelectorAll(".faq-content").forEach(c => c.classList.add("hidden"));
+      document.querySelectorAll(".faq-icon").forEach(i => i.style.transform = "rotate(0deg)");
+
+      if (!isOpen) {
+        content.classList.remove("hidden");
+        icon.style.transform = "rotate(180deg)";
+      }
+    }
+
+    /* ============================================================
+       WHATSAPP LEAD ENQUIRY FORM
+    ============================================================ */
+    function initLeadForm() {
+      const form = document.getElementById("leadEnquiryForm");
+      if (!form) return;
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+
+        const name = document.getElementById("leadName").value.trim();
+        const phone = document.getElementById("leadPhone").value.trim();
+        const location = document.getElementById("leadLocation").value.trim();
+        const product = document.getElementById("leadProduct").value;
+        const msg = document.getElementById("leadMessage").value.trim();
+
+        const formattedMsg = `*Hello Aruran Agro Solution!*
+I would like to enquire about your products:
+
+*Farmer Name:* ${name}
+*Phone:* ${phone}
+*Location/Town:* ${location}
+*Product Interested:* ${product}
+*Notes/Quantity:* ${msg || 'Please share product details and pricing.'}
+
+Kindly let me know the availability and dispatch details. Thank you!`;
+
+        const whatsappUrl = `https://wa.me/917904893635?text=${encodeURIComponent(formattedMsg)}`;
+        window.open(whatsappUrl, "_blank");
+      });
+    }
+  </script>
+
+</body>
+</html>
